@@ -7,7 +7,7 @@ public class AVLTree <T extends Comparable<T>> {
         if (node == null) {
             return 0;
         }
-        return node.height;
+        return height(node);
     }
 
     int balanceFactor(Node node) {
